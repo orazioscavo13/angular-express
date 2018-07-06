@@ -1,27 +1,86 @@
-# Frontend
+# WonderfulCompany
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+## Table of Contents
 
-## Development server
+- [References](#references)
+- [Screenshots](#screenshots)
+- [Requirements](#requirements)
+- [Running](#running)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## References
 
-## Code scaffolding
+Full Documentation is available <a href="https://orazioscavo13.github.io/wonderfulcompany/">here</a>
+<br/>
+Take a look to the <a href="http://159.65.207.157/">demo</a>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Screenshots
 
-## Build
+![screenshot](screenshots/Screen_home.png)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+![screenshot](screenshots/Screen_surveys.png)
 
-## Running unit tests
+![screenshot](screenshots/Screen_absence.png)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Requirements
 
-## Running end-to-end tests
+- `nodejs` (>=10.x)
+- `npm` or `yarn`
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+run
 
-## Further help
+```bash
+npm install -g @angular/cli
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Principal Technologies used
+
+- `nodejs`
+- `express`
+- `angular`
+- `mySQL`
+- `Angular Material`
+- `bootstrap`
+- `Angular Flex`
+- `ngx-charts`
+- `angular6-calendar`
+
+## Running for Test
+
+#### First time
+
+```bash
+git clone https://github.com/orazioscavo13/wonderfulcompany.git
+cd wonderfulcompany
+yarn install
+ng serve
+```
+
+#### Later on
+
+```bash
+cd wonderfulcompany
+ng serve
+```
+
+## Building
+
+#### First time
+
+```bash
+git clone https://github.com/orazioscavo13/wonderfulcompany.git
+cd wonderfulcompany
+yarn install
+ng build
+```
+
+#### Later on
+
+```bash
+cd wonderfulcompany
+ng build
+```
+
+## Admin Credentials
+
+- Email: `admin@wonderfulcompany.it`
+- Password: `angular`
