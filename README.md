@@ -5,10 +5,10 @@
 - [References](#references)
 - [Screenshots](#screenshots)
 - [Requirements](#requirements)
-- [Principal Technologies used](#principal)
-- [Running](#running)
+- [Principal Technologies used](#principal-technologies-used)
+- [Running](#running-for-test)
 - [Building](#building)
-- [Admin Credentials](#admin)
+- [Admin Credentials](#admin-credentials)
 
 ## References
 
