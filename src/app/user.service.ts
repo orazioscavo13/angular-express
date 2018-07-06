@@ -252,9 +252,9 @@ export class UserService {
         this.user = null;
         this.logged_in = false;
         this.cookieService.deleteAll(); //clear login data and cookies
+        this.Router.navigate(["/home"]);
       }
     });
-    this.Router.navigate(["/home"]);
   }
 
   /**
