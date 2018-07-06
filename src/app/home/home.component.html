@@ -1,0 +1,46 @@
+<div class="page">
+  <div class="home-title text-center">
+    <h1>Benvenuto, {{UserService.get_name()}}</h1>
+  </div>
+
+  <div>
+
+    <div class="col-md-4 col-md-offset-2 section-card section-card-1">
+      <mat-card>
+        <div class="text-center">
+          <h2>Sezione Ferie e Assenze</h2>
+          <h4>Sviluppata da Orazio Scavo</h4>
+        </div>
+        <img mat-card-image src="/assets/images/ferie.jpg" alt="Due Lettini da spiaggia in riva al mare">
+        <mat-card-content>
+          <p class="text-center">
+            In questa sezione tutti i dipendenti possono gestire i propri permessi per ferie o altre assenze. Le richieste dovranno essere approvate dai relativi responsabili prima di essere confermate.
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button [routerLink]="['/absences/calendar']" mat-button>CALENDARIO</button>
+          <button [routerLink]="['/absences/myabsences']" mat-button>PERMESSI</button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+
+    <div class="col-md-4 section-card section-card-2">
+      <mat-card>
+        <div class="text-center">
+          <h2>Sezione Test e Sondaggi</h2>
+          <h4>Sviluppata da Federico Grasso</h4>
+        </div>
+        <img mat-card-image src="/assets/images/sondaggi.jpg" alt="Scrivania con sopra un pc, delle penne ed un block notes raffigurante dei grafici">
+        <mat-card-content>
+          <p class="text-center">
+            In questa sezione è possibile creare nuovi sondaggi e rispondere ai sondaggi creati da altri impiegati. Il gestore di ogni sondaggio potrà avere visione delle statistiche ad esso relative.
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+          <button [routerLink]="['/surveys/createsurvey']" mat-button>CREA SONDAGGIO</button>
+          <button [routerLink]="['/surveys/allsurveys']" mat-button>TUTTI I SONDAGGI</button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+  </div>
+</div>

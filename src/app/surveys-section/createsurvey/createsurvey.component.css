@@ -1,0 +1,39 @@
+.buttons-margin {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.security-margin {
+  margin-top: 20px;
+}
+
+.security-margin-bottom {
+  margin-bottom: 20px;
+}
+
+.security-margin-button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.security-margin-radio {
+  margin-right: 5px;
+}
+
+.security-margin-conditional {
+  margin-top: 15px;
+}
+
+.trash-icon {
+  margin-top: 5px;
+}
+
+.page {
+  padding: 60px;
+  padding-top: 30px;
+}
+
+.shadow {
+  box-shadow: 0 18px 6px -12px rgba(0, 0, 0, 0.35),
+    0 12px 12px 0 rgba(0, 0, 0, 0.25), 0 4px 20px 0 rgba(0, 0, 0, 0.2);
+}

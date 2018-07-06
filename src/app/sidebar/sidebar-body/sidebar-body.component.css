@@ -1,0 +1,77 @@
+.active{
+    border-right: 5px solid #1ABB9C;
+    text-shadow: rgba(0,0,0,.25) 0 -1px 0;
+    background: linear-gradient(#334556,#2C4257),#2A3F54;
+    box-shadow: rgba(0,0,0,.25) 0 1px 0,inset rgba(255,255,255,.16) 0 1px 0;
+}
+
+.basic-entry{
+  min-height:48px;
+  font-size:20px;
+  padding-top:10px;
+  padding-left:20px;
+  cursor:pointer;
+}
+
+.basic-entry:hover{
+  background:rgba(255,255,255,0.2);
+}
+
+.basic-entry a{
+  text-decoration: none;
+  color:white;
+}
+
+.home-mini{
+  min-height:48px;
+  font-size:20px;
+  margin-bottom:30px;
+  text-align:center;
+  cursor:pointer;
+  color:white;
+}
+
+.home-mini a{
+  color:white;
+  text-decoration:none;
+  font-size:2em;
+}
+
+.home-mini:hover{
+  background:rgba(255,255,255,0.2);
+}
+
+.logout-icon{
+  color:rgb(255,0,0,0.5);
+}
+
+
+.sidebar-divider{
+  width:80%;
+  margin:auto;
+}
+
+.sidebar-divider mat-divider{
+  border-top-color: rgba(255,255,255,0.5);
+}
+
+.sidebar-menu{
+  margin:0px;
+  margin-top:30px;
+  padding:0px;
+  list-style: none;
+}
+
+.sidebar-title-box{
+  width:100%;
+  padding:20px;
+  color:rgb(255,255,255);
+}
+
+h3{
+  margin-bottom:0px;
+}
+
+h4{
+  margin-top:0px;
+}

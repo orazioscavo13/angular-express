@@ -1,0 +1,99 @@
+.border-divider{
+  padding-bottom:60px;
+}
+
+.center-div{
+  margin: auto;
+  margin-top:50px;
+  right: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+}
+
+.employee-name{
+  color:blue;
+}
+
+.filter-buttons{
+  margin:auto;
+  left:0;
+  right:0;
+  padding.top:15px;
+  padding-bottom:15px;
+}
+
+.green{
+  color:green;
+}
+
+.justification-file-button{
+  margin:5px;
+}
+
+.justification-file-label{
+  padding-left:5px;
+}
+
+.no-data{
+  margin:auto;
+  left:0;
+  right:0;
+  width: 70%;
+  margin-top:60px;
+  background: rgba(255,255,255,0.6);
+  border-radius: 20px;
+  padding:30px;
+}
+
+.page{
+  padding:60px;
+}
+
+.red{
+  color:red;
+}
+
+.request-body{
+  padding-top: 20px;
+}
+
+.section{
+  padding:20px;
+  margin-bottom:60px;
+}
+
+.title{
+  width:100%;
+  padding-bottom:30px;
+}
+
+mat-panel-description{
+  width:50%;
+}
+
+mat-panel-title{
+  width:50%;
+}
+
+@media (min-width: 767px){
+  .border-divider{
+    min-height:120vh;
+    border-right: 3px solid #aaaaaa;
+  }
+}
+
+@media (max-width: 1100px){
+  .page{
+    padding:0px;
+  }
+}
+
+@media (max-width: 766px){
+  .no-data{
+    width:90%;
+  }
+  button{
+    background: #aaaaaa;
+  }
+}

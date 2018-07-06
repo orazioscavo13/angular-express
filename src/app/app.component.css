@@ -1,0 +1,33 @@
+.outlet{
+  padding-top:57px;
+}
+
+.smooth-transition{
+  -webkit-transition: margin-left 1s; /* For Safari 3.1 to 6.0 */
+  transition: margin-left 1s;
+}
+
+.veil{
+  position:fixed;
+  z-index:500;
+  background: black;
+  opacity:0.5;
+  width:100vh;
+  height:100%;
+  min-height:100vh;
+}
+
+@media (min-width: 767px){
+  .outlet{
+    margin-left:83px;
+  }
+  .outlet-side-expanded{
+    margin-left: 240px;
+  }
+}
+
+@media (max-width: 766px){
+  .outlet{
+    margin-left:0px;
+  }
+}
